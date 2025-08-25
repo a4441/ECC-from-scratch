@@ -1,0 +1,12 @@
+[project]
+name = "ecc-from-scratch"
+version = "0.1.0"
+description = "Educational Elliptic Curve Cryptography (ECC) from scratch in pure Python. Not for production use."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "You"}]
+license = {text = "MIT"}
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+addopts = "-q"
